@@ -194,7 +194,7 @@
                 android:id="@+id/tomboldel"
                 android:layout_width="32pt"
                 android:layout_height="32pt"
-                android:text="@string/del"
+                android:text="HPS"
                 android:textSize="10pt"/>
 
         </LinearLayout>
