@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textHasil"
+        android:scrollHorizontally="true"
+        android:lines="1"
+        android:maxLength="30"
+        android:layout_width="match_parent"
+        android:layout_height="30pt"
+        android:textSize="20pt"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textHasil"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/atas"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/tombol1"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/_1"
+                android:textSize="10pt"/>
+            <Button
+                android:id="@+id/tombol2"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/_2"
+                android:textSize="10pt"/>
+            <Button
+                android:id="@+id/tombol3"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/_3"
+                android:textSize="10pt"/>
+            <Button
+                android:id="@+id/tombolplus"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/_tambah"
+                android:textSize="10pt"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/tengah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            >
+
+            <Button
+                android:id="@+id/tombol4"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/_4"
+                android:textSize="10pt"/>
+            <Button
+                android:id="@+id/tombol5"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/_5"
+                android:textSize="10pt"/>
+            <Button
+                android:id="@+id/tombol6"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/_6"
+                android:textSize="10pt"/>
+            <Button
+                android:id="@+id/tombolmin"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/_kurang"
+                android:textSize="10pt"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/bawah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+        >
+
+        <Button
+            android:id="@+id/tombol7"
+            android:layout_width="32pt"
+            android:layout_height="32pt"
+            android:text="@string/_7"
+            android:textSize="10pt"/>
+        <Button
+            android:id="@+id/tombol8"
+            android:layout_width="32pt"
+            android:layout_height="32pt"
+            android:text="@string/_8"
+            android:textSize="10pt"/>
+        <Button
+            android:id="@+id/tombol9"
+            android:layout_width="32pt"
+            android:layout_height="32pt"
+            android:text="@string/_9"
+            android:textSize="10pt"/>
+        <Button
+            android:id="@+id/tombolkali"
+            android:layout_width="32pt"
+            android:layout_height="32pt"
+            android:text="@string/_x"
+            android:textSize="10pt"
+            />
+
+    </LinearLayout>
+
+        <LinearLayout
+
+            android:id="@+id/bawah1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+
+            >
+
+            <Button
+                android:id="@+id/tombol0"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/_01"
+                android:textSize="10pt"/>
+            <Button
+                android:id="@+id/tombolKoma"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/koma"
+                android:textSize="10pt"/>
+            <Button
+                android:id="@+id/tomboleq"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/samadgn"
+                android:textSize="10pt"/>
+            <Button
+                android:id="@+id/tombolbagi"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/bagi"
+                android:textSize="10pt"
+                />
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+            <Button
+                android:id="@+id/clear"
+                android:text="@string/clear"
+                android:textSize="10pt"
+                android:layout_width="96pt"
+                android:layout_height="32pt"/>
+            <Button
+                android:id="@+id/tomboldel"
+                android:layout_width="32pt"
+                android:layout_height="32pt"
+                android:text="@string/del"
+                android:textSize="10pt"/>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
