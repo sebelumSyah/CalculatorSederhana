@@ -186,7 +186,7 @@
             >
             <Button
                 android:id="@+id/clear"
-                android:text="@string/clear"
+                android:text="CLEAR CUY"
                 android:textSize="10pt"
                 android:layout_width="96pt"
                 android:layout_height="32pt"/>
